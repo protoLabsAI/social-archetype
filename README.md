@@ -1,4 +1,4 @@
-# social-stack
+# social-archetype
 
 The plugin bundle behind [protoAgent](https://github.com/protoLabsAI/protoAgent)'s
 **Social Marketing archetype** — pick "Social Marketing" in the setup wizard or the
@@ -24,7 +24,7 @@ content; a person publishes it.
 That's a decision, not an omission. Platform APIs are the expensive, brittle half —
 each its own OAuth app, review process, and monthly bill — and the failure mode of an
 autonomous poster isn't a typo, it's a confident wrong post that's permanent and
-screenshot-able. Everything the stack builds (brand kit, linter, queue, export) is
+screenshot-able. Everything the archetype builds (brand kit, linter, queue, export) is
 identical whether a person or an API sends the post, so nothing is wasted if that
 changes. Until then: export CSV into whatever scheduler you already pay for.
 
@@ -33,7 +33,7 @@ changes. Until then: export CSV into whatever scheduler you already pay for.
 Pick **Social Marketing** in the protoAgent setup wizard / new-agent picker, or:
 
 ```
-python -m server plugin install https://github.com/protoLabsAI/social-stack
+python -m server plugin install https://github.com/protoLabsAI/social-archetype
 ```
 
 After install, enable the suggested list and say **"set up our brand kit"** — the
@@ -42,7 +42,7 @@ After install, enable the suggested list and say **"set up our brand kit"** — 
 
 ## Pairs well with
 
-- **[cowork-stack](https://github.com/protoLabsAI/cowork-stack)** — add it if you want
+- **[cowork-archetype](https://github.com/protoLabsAI/cowork-archetype)** — add it if you want
   LinkedIn PDF carousels, decks, and spreadsheet exports. It's kept out of this bundle
   because it pulls in a Python runtime an organic-social agent shouldn't need by default.
 - **A Google connector** for reading the source material you repurpose from.

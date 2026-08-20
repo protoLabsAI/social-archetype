@@ -1,4 +1,4 @@
-# social-stack — the bundle behind protoAgent's Social Marketing archetype.
+# social-archetype — the bundle behind protoAgent's Social Marketing archetype.
 # Composes the organic-social agent: brand voice + platform craft + a content
 # queue (social), the surfaces that produce and hold the assets (artifact, notes).
 #
@@ -6,8 +6,8 @@
 # (plugins.lock records the resolved SHA), verified_against is the core version
 # this pin set was last verified on.
 
-id: social-stack
-name: Social Marketing Stack
+id: social-archetype
+name: Social Marketing
 description: >-
   An organic social marketing agent, prepackaged: a brand kit that makes every draft sound like
   the brand, the real limits and norms of nine platforms, a content queue you plan and draft
@@ -34,7 +34,7 @@ enabled: [artifact, notes, social]
 # Deliberately NOT included:
 #   * Any publishing connector. See the plugin README — publishing is the expensive,
 #     brittle half, and a human between an agent and a public feed is worth keeping.
-#   * cowork-stack. Add it alongside this one if you want LinkedIn PDF carousels and
+#   * cowork-archetype. Add it alongside this one if you want LinkedIn PDF carousels and
 #     decks; it pulls in a Python runtime, which an organic-social agent shouldn't
 #     need by default.
 
