@@ -1,3 +1,9 @@
+> **Superseded by [protoLabsAI/brand-launch-archetype](https://github.com/protoLabsAI/brand-launch-archetype).**
+> protoAgent's Social Marketing archetype is replaced by **Brand & Launch** (2026-10-01): the
+> same Social Studio plugin for brand voice, norms, the queue, the linter and the export pack,
+> plus a campaign plan, scripted screen recordings, GIFs, cards and operator approval. Use that
+> bundle for new agents. This repo stays readable for existing installs and will be archived.
+
 # social-archetype
 
 The plugin bundle behind [protoAgent](https://github.com/protoLabsAI/protoAgent)'s
